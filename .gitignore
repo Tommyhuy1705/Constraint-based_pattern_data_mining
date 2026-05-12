@@ -1,0 +1,45 @@
+# Python cache and artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Lint/type cache
+.mypy_cache/
+.ruff_cache/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Datasets
+*.csv
+*.xlsx
+
+# Outputs (keep empty folder in repo)
+Mining_Quantitative_Association_Rules_Lab/outputs/*
+!Mining_Quantitative_Association_Rules_Lab/outputs/.gitkeep
