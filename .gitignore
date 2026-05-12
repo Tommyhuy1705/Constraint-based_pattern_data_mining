@@ -36,10 +36,10 @@ htmlcov/
 .DS_Store
 Thumbs.db
 
-# Datasets
-*.csv
-*.xlsx
-
 # Outputs (keep empty folder in repo)
 Mining_Quantitative_Association_Rules_Lab/outputs/*
 !Mining_Quantitative_Association_Rules_Lab/outputs/.gitkeep
+
+.env
+
+outputs/*
